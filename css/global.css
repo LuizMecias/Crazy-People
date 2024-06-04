@@ -84,9 +84,23 @@ a.button {
     margin-bottom: 5px;
 }
 .form-group input {
+    width: 100%;
     border: 1px solid #61646B;
     padding: 12px;
     border-radius: 8px;
+}
+.form-group .input-password {
+    flex: 1;
+    position: relative;
+    width: 100%;
+}
+.form-group .input-password .icon-eye {
+    position: absolute;
+    right: 0px;
+    top: 12px;
+    color: #AFB1B6;
+    cursor: pointer;
+
 }
 .form-group input ::placeholder {
     color: #AFB1B6;
